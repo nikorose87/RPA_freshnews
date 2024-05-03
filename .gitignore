@@ -26,6 +26,26 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# RPA avoidances
+output/
+venv/
+temp/
+.rpa/
+.idea/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.virtual_documents/
+*/.virtual_documents/*
+.vscode
+.DS_Store
+*.pyc
+*.zip
+*/work-items-out/*
+testrun/*
+.~lock*
+*.pkl
+challenge.xlsx
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
